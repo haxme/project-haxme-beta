@@ -1,5 +1,7 @@
 # HaxMe Beta Reconstruction
 
+<img width="2437" height="2145" alt="image" src="https://github.com/user-attachments/assets/fbd49d4a-0ace-418a-8cdc-b9e6a753c575" />
+
 This repository preserves and reconstructs an early HaxMe beta-era PHP codebase
 as a runnable local artifact. The original project was a self-built security
 training site: part learning platform, part mission/challenge system, part
