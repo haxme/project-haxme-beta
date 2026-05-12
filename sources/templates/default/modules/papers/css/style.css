@@ -1,0 +1,12 @@
+#paper_info
+{
+	float: right;
+	width: 250px;
+	background-image: url("@{img_url}/twitter-logo.png");
+	margin: 5px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	background-color: #E63737;
+	border: 1px solid white;
+}

@@ -1,0 +1,37 @@
+<*CYS Flatfile Inclusion - by: CYS*/>
+
+<! -- Header \\Config\\ -->
+username_types(array): [plaintext||hexadecimal||crypto]*
+password_types(array): [plaintext||crypto||combo]
+ {
+  "password_types[*\combo*\]" {
+   >>"crypto"*
+   >>"imgk"*
+   }
+  "password_types[*\crypto*\]" {
+   >>"md4"*
+   >>"md5"*
+   >>"sha256"*
+   >>"whirlpool"*
+   }
+  }*
+imgk_types(array): [.bmp||.jpg||.gif]*  
+
+<! -- EoH \\Config\\ -->
+
+begin():
+>>
+call(config,go(@as[func(hex)]))*
+username_types >> p >> 70%1606c%16061%16069%1606e%16074%16065%16078%16074 >> *
+password_types >> p >> 63%1606f%1606d%16062%1606f%16020%1607b%16020%1602f%16020%1607b%16020%1606d%16064%16035%16020%1607d%16020%1607d >> *
+imgk_types >> p >> 2e%16062%1606d%16070
+<< * 
+
+round(as[def:begin(=1)]):
+>>
+container(as[new:usr(61 64 6d 69 6e 69 73 74 72 61 74 6f 72)])*
+container(as[new:pwd(61 36 39 31 38 62 66 36 65 33 61 65 33 37 34 61 34 32 64 36 64 34 66 34 32 63 30 34 32 61 66 64)])*
+<< *
+
+
+

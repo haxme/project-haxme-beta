@@ -1,0 +1,1 @@
+Copyright &copy; 2009-2010 / <b>HaxMe</b>, All Rights Reserved.

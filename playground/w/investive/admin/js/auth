@@ -1,0 +1,12 @@
+auth = "8201048572";
+code = "4910495720";
+
+function checkpass(pass)
+{
+if(pass == auth+" "+code)
+{	
+          window.location=(unescape("%2E%2E%2F%6C%6F%67%69%6E%2E%70%68%70%3F%61%75%74%68%3D%74%30%30%72"));
+} else {
+alert("Invalid authorization code. Please try again.");
+}
+}

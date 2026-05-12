@@ -1,0 +1,52 @@
+# Local environment
+.env
+.env.*
+!.env.example
+docker-compose.override.yml
+
+# Docker/local database state
+/db_data/
+/mysql/
+/mariadb/
+
+# Database exports and local backups
+*.sql.gz
+*.dump
+*.dump.gz
+*.backup
+*.backup.gz
+*.bak
+*.orig
+*.rej
+
+# Logs and runtime scratch files
+*.log
+/logs/
+/tmp/
+/cache/
+.phpunit.result.cache
+
+# Dependency/build directories that should not be vendored accidentally
+/vendor/
+/node_modules/
+/dist/
+/build/
+/coverage/
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python helper caches from local audit scripts
+__pycache__/
+*.py[cod]
+
+# Keep legacy mission assets visible. Do not globally ignore *.zip, *.rar,
+# *.exe, *.sql, or image files; several restored challenges depend on them.

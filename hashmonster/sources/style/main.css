@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'EfonRegular';
+	src: url('font/EFON-webfont.eot');
+	src: local('?'), url('font/EFON-webfont.woff') format('woff'), url('font/EFON-webfont.ttf') format('truetype'), url('font/EFON-webfont.svg#webfontDcRESLfO') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GoodDog';
+	src: url('font/GoodDog.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Honzo';
+	src: url('font/Hattori_Hanzo.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 35px;
+	padding: 50px;
+	background: #1BB5ED url(logo.png) no-repeat;
+	background: url(logo.png) no-repeat, -webkit-gradient(linear, 0% 0%, 81% 100%, from(#1BB5ED), to(#1E7687), color-stop(.6,#1696C4));
+} 
+
+p.style {
+        font-family: Honzo;
+        font-size: xx-large;
+        text-align: center;
+}
+        
+#wrapper
+{
+	margin: 0 auto;
+	width: 960px;
+        height:100%;
+}
+
+
+#header {
+	background: #1F1E1E;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0.47, rgb(97,71,27)), color-stop(0.74, rgb(133,107,56)));
+        background: -moz-linear-gradient(center bottom, rgb(97,71,27) 47%, rgb(133,107,56) 74%);
+	border: 1px solid #00000;
+	width:850px;
+	height:80px;
+        float:left;
+        margin-left:75px;
+	position: relative;                     
+}
+
+
+#main {
+	background: #F4F5E4;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.29, rgb(212,219,171)), color-stop(0.62, rgb(246,247,215)));
+        background: -moz-linear-gradient(center bottom, rgb(212,219,171) 47%, rgb(246,247,215) 74%);
+	border: 1px solid #00000;
+	border-radius: 0px 2px 10px 10px;
+	-moz-border-radius: 0px 2px 10px 10px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+        float:left;
+        margin-left:75px;
+	position: relative;
+	width: 850px;
+	height: 600px;
+}
+
+#nom {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding-left: 23%;
+}
+
+#login {
+        float: right;
+}
+
+#navigation {
+        float: left;
+        margin: 15px;
+}
+
+#navigation a {
+        background: #8a9677;
+        color: #FAF2D9;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        font-family: helvetica, arial;
+        font-size: 32px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: background .4s ease-in;
+        float: left;
+        padding: 3px 3px 3px 3px;
+        margin-left: 5px;
+}
+
+#navigation a:hover {
+        background: #1696C4;
+}
+
+#about {
+        margin:0 auto;
+}
+
+#reverse {
+	width: 275px;
+	height: 60px;
+	line-height: 100 px;
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	position: relative;
+        background: #014464;
+	background : -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C));
+  
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  
+	border: 1px solid #368DBE;
+	border-top: 1px solid #c3d6df;
+  
+	text-shadow: 1px 1px 1px black;
+  
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+
+        margin-left: 75px;
+}
+ 
+#reverse:before {
+	font-family: EfonRegular;
+	content: 'z'
+}
+
+#loginbutton {
+	width: 40px;
+	height: 15px;
+	line-height: 100 px;
+	color: white;
+	text-decoration: none;
+	font-size: 8px;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	position: relative;
+        float: right;
+        margin: 5px;
+	background: #014464;
+	background : -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C));
+  
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  
+	border: 1px solid #368DBE;
+	border-top: 1px solid #c3d6df;
+  
+	text-shadow: 1px 1px 1px black;
+  
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+}
+
+#usr { 
+        font-family: GoodDog;
+        font-size: large;
+        width: 120px; 
+        height: 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #00000;
+        background: #FAF7DE url(user.png) no-repeat;
+        background-position: 2px 2px;
+        margin-right: 5px;
+        padding-left: 20px;
+}
+
+#pass { 
+        font-family: GoodDog;
+        font-size: large;
+        width: 120px; 
+        height: 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #00000;
+        background: #FAF7DE url(pass.png) no-repeat;
+        background-position: 2px 2px;
+        margin-right: 5px;
+        padding-left: 20px;
+}
+
+#nomtype {
+	font-size: 24px;
+	padding: 5px;
+	width: 440px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #312f27;
+	z-index: 998;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#nomtype option {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#nomtype option {
+	padding: 0 5px;
+}
+
+#nomput {
+        font-size: 24px;
+        padding: 5px;
+        height: 30px;
+        width: 428px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #312f27;
+	z-index: 998;
+	font-family: Honzo;
+        background: #FAF7DE url(search.png) no-repeat;
+        background-position: 2px 2px;
+        margin-right: 5px;
+}

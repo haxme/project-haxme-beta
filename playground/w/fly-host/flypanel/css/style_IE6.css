@@ -1,0 +1,82 @@
+/*
+
+This style sheet is created by Grubforce on 28-04-2009
+
+
+*/
+
+/********************/
+/*    Navigation    */
+/********************/
+
+
+#nav {
+	height: 41px;
+	width: 950px;
+	margin: auto;
+	background-image: url(../images/Navigation.gif);
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav li a{
+	padding-top: 41px;
+	float: left;
+	height: 0;
+	overflow: hidden;
+}
+
+/*button*/
+#nav li a#home { margin-left: 10px;width: 82px; background: url(../images/Navigation.gif) no-repeat -10px -41px; }
+#nav li a#blog {width: 76px; background: url(../images/Navigation.gif) no-repeat -92px -41px; }
+#nav li a#portfolio {width: 96px; background: url(../images/Navigation.gif) no-repeat -168px -41px; }
+#nav li a#about {width: 108px; background: url(../images/Navigation.gif) no-repeat -264px -41px; }
+#nav li a#contact {width: 98px; background: url(../images/Navigation.gif) no-repeat -372px -41px;}
+
+/*over states*/
+#nav li a#home:hover { margin-left: 10px;width: 82px; background: url(../images/Navigation.gif) no-repeat -10px -82px; }
+#nav li a#blog:hover {width: 76px; background: url(../images/Navigation.gif) no-repeat -92px -82px; }
+#nav li a#portfolio:hover {width: 96px; background: url(../images/Navigation.gif) no-repeat -168px -82px; }
+#nav li a#about:hover {width: 108px; background: url(../images/Navigation.gif) no-repeat -264px -82px; }
+#nav li a#contact:hover {width: 98px; background: url(../images/Navigation.gif) no-repeat -372px -82px;}
+
+/*on states*/
+#nav.home li a#home { margin-left: 10px;width: 82px; background: url(../images/Navigation.gif) no-repeat -10px -82px; }
+#nav.blog li a#blog {width: 76px; background: url(../images/Navigation.gif) no-repeat -92px -82px; }
+#nav.portfolio li a#portfolio {width: 96px; background: url(../images/Navigation.gif) no-repeat -168px -82px; }
+#nav.about li a#about {width: 108px; background: url(../images/Navigation.gif) no-repeat -264px -82px; }
+#nav.contact li a#contact {width: 98px; background: url(../images/Navigation.gif) no-repeat -372px -82px;}
+
+/***********************/
+/*    Cols homepage    */
+/***********************/
+
+#col2 {
+	width: 200px;
+	margin-right: 60px;
+	float: left;
+}
+
+/*****************/
+/*    Sidebar    */
+/*****************/
+
+div.neon_gategories {
+	width: 280px;
+	height: 2px;
+	float: left;
+}
+
+div.neon_links {
+	width: 280px;
+	height: 2px;
+	float: left;
+}
+
+#sidebar ul.links_sidebar li.link1 {
+	margin-bottom: 5px;
+	margin-left: 5px;
+	float: left;
+}

@@ -1,0 +1,441 @@
+/* #################################################
+   ##  Name: Minimalistic - Business & Portfolio  ##
+   ##  Author: cesiel1993                         ##
+   ##  File: style.css                            ##
+   ##  Last Updated: September 2nd, 2009          ##
+   ##  Help: Email - cesiel1993@gmail.com         ##
+   #################################################
+*/
+
+
+body {
+	background: #FFFFFF;
+	color: #555555;
+	margin: 0;
+	padding: 0;
+}
+
+
+/**********************************************
+	Global Styles
+***********************************************/
+
+a {
+	color: #379dcc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #379dcc;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #379dcc;
+	text-decoration: none;
+}
+
+a:active {
+	color: #379dcc;
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
+}
+
+h2 a, h2 a:hover, h2 a:visited, h2 a:active {
+	color: #222222;
+}
+
+img {
+	margin: 15px 0;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #222222;
+	padding: 0;
+	margin: 0 0 5px 0;
+	line-height: 1.5em;
+}
+
+h1 { 
+	font-size: 26px; 
+	letter-spacing: -1px; 
+}
+
+h2 { 
+	font-size: 24px;
+	letter-spacing: -.7px; 
+}
+
+h3 { 
+	font-size: 21px; 
+	letter-spacing: -.4px;
+	margin-bottom: 0;
+}
+
+h4 { font-size: 18px; margin-bottom: 0; }
+
+h5 { font-size: 16px; margin-bottom: 0; }
+
+p, blockquote, dl, ul, ol, tr, th, td, form, textarea { line-height: 2em; }
+
+p {
+	padding: 0 0 15px 0;
+	margin: 0;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+small {
+	color: #999999;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+big {
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+ul { list-style-type: square; }
+
+ul.divided_list {
+	margin: 0;
+	padding: 0;
+}
+
+ul.divided_list li {
+	list-style-type: none;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 12px 0 3px 5px;
+}
+
+ul.horizontal_list {
+	font-size: 12px;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+ul.horizontal_list li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+hr {
+	clear: both;
+	height: 1px;
+	color: #DDDDDD;
+	background-color: #DDDDDD;
+	border: 0;
+	margin: 15px 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+}
+
+legend {
+	font-weight: bolder;
+}
+
+input, textarea {
+	background: #F5F5F5;
+	border: 1px solid #D5D5D5;
+	padding: 10px;
+}
+
+button {
+	background: #333333;
+	height: 100%;
+	font-weight: bolder;
+	padding: 10px 20px 10px 20px;
+	color: #FFFFFF;
+	border: none;
+}
+
+button:hover {
+	background: #666666;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+}
+
+tr, th, td {
+	text-align: left;
+}
+
+.leftimg {
+	float: left;
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	padding: 7px;
+	margin: 0 15px 15px 0;
+}
+
+.rightimg {
+	float: right;
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	padding: 7px;
+	margin: 0 0 20px 30px;
+}
+
+
+/**********************************************
+	Header
+***********************************************/
+
+#header {
+	background: #111111;
+}
+
+#header a, #header a:hover, #header a:active, #header a:visited {
+	text-decoration: none;
+}
+
+#header h1 {
+	color: #FFFFFF;
+}
+
+.header_container {
+	background: url(../images/header_bg.jpg) no-repeat;
+	width: 960px;
+	height: 95px;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+
+.navigation {
+	position: absolute;
+	width: 960px;
+	top: 91px;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	list-style-type: none;
+	display: inline;
+	margin-right: -2px;
+	font-weight: bolder;
+}
+
+.navigation li a {
+	padding: 10px 20px 9px 20px;
+	background: url(../images/nav_linkbg.gif) repeat-x;
+	height: 35px;
+	color: #555555;
+}
+
+.navigation li a:hover {
+	padding: 10px 20px;
+	background: #FFFFFF;
+	height: 35px;
+	color: #333333;
+}
+
+.navigation li a.selected {
+	padding: 10px 20px;
+	background: #FFFFFF;
+	font-weight: bolder;
+	color: #333333;
+}
+
+
+/**********************************************
+	Content
+***********************************************/
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.hiddencontent {
+	display: none;
+}
+
+/* Three Column Layout */
+.column1 {
+	float: left;
+	width: 285px;
+	margin-top: 15px;
+}
+
+.column2 {
+	float: left;
+	width: 285px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 15px;
+}
+
+.column3 {
+	float: left;
+	width: 285px;
+	margin-top: 15px;
+}
+
+
+/* Two Column Layout */
+.twocols_left {
+	float: left;
+	width: 445px;
+}
+
+.twocols_right {
+	float: right;
+	width: 445px;
+	font-size: 12px;
+}
+
+/* Uneven Two Column Layout */
+.uneven2cols_left {
+	float: left;
+	width: 600px;
+}
+
+.uneven2cols_right {
+	float: right;
+	width: 310px;
+	font-size: 12px;
+}
+
+#display {
+	width: 960px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+.portfolio_item img {
+	padding: 7px;
+	border: 1px solid #DDDDDD;
+	margin: 10px 0;
+}
+
+.portfolio_item .uneven2cols_left {
+	padding-right: 30px;
+}
+
+.portfolio_item .uneven2cols_right {
+	width: 310px;
+	margin-top: 15px;
+}
+
+hr.portfolio {
+	margin: 25px 0;
+}
+
+.success {
+	background: #b9ee99;
+	width: 100%;
+	height: 35px;
+	padding: 15px;
+	margin-bottom: 15px;
+	line-height: 2.5em;
+	border: 1px solid #67c82c;
+	color: #487c29;
+}
+
+.bademail, .badserver {
+	background: #f9b29c;
+	width: 100%;
+	height: 35px;
+	padding: 15px;
+	margin-bottom: 20px;
+	line-height: 2.5em;
+	border: 1px solid #ea6353;
+	color: #8a352a;
+}
+
+.success img, .bademail img, .badserver img {
+	margin: 0;
+}
+
+#contact {
+	width: 100%;
+}
+
+#contact form label {
+	display: block;
+	font-weight: bolder;
+	line-height: 1.3em;
+}
+
+#contact form input, textarea {
+	width: 100%;
+	margin: 10px 0 25px 0;
+	color: #444444;
+	line-height: 1.7em;
+}
+
+#contact button{
+	float: right;
+	margin: 0 -20px 10px 0;
+}
+
+
+/**********************************************
+	Footer
+***********************************************/
+
+#footer {
+	border-top: 1px solid #DDDDDD;
+	height: 50px;
+	margin-top: 15px;
+	padding-top: 30px;
+	font-size: 12px;
+	color: #999999;
+	clear: both;
+}
+
+#footer ul {
+	margin: -5px 0 0 0;
+	padding: 0;
+}
+
+#footer li {
+	display: inline;
+	padding-left: 20px;
+	list-style-type: none;
+
+}
+
+
+/* clearfix start */ 
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+/* clearfix end */ 

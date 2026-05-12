@@ -1,0 +1,43 @@
+/* #################################################
+   ##  Name: Minimalistic - Business & Portfolio  ##
+   ##  Author: cesiel1993                         ##
+   ##  File: sansserif.css - Sans Serif Fonts     ##
+   ##  Last Updated: August 31st, 2009            ##
+   ##  Help: Email - cesiel1993@gmail.com         ##
+   #################################################
+*/
+
+
+body {
+	font: 14px Helvetica, Arial, Sans-Serif;
+}
+
+
+/**********************************************
+	Global Styles
+***********************************************/
+
+h1, h2, h3, h4, h5 {
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+input, textarea {
+	font: 12px Helvetica, Arial, Sans-Serif;
+}
+
+button {
+	font: 13px Helvetica, Arial, Sans-Serif;
+}
+
+
+/**********************************************
+	Header
+***********************************************/
+
+#header h1 {
+	font: bolder italic 30px Helvetica, Arial, Sans-Serif;
+}
+
+.navigation {
+	font: 12px Arial, Helvetica, Sans-Serif;
+}
